@@ -47,7 +47,7 @@ reading. The last deadline of the semester is Friday, December 4.
 | Wk | Dates (Mon–Fri) | Episode | Topic | zyBooks (due Wed) | Deliverables due 11:59 pm (Friday unless noted) | Commissions |
 |---|---|---|---|---|---|---|
 | 1 | Aug 17 – 21 | **Induction Day** | What an operating system is; your Linux environment; the shell; manual pages | Ch 1 | Work Order 01 | — |
-| 2 | Aug 24 – 28 | **The Engine's Native Tongue** | System calls; a C on-ramp; tracing a program with `strace` | Ch 1 (finish) · Ch 2 (begin) | Work Order 02 | **Kureos assigned** (zyBooks 12.1) |
+| 2 | Aug 24 – 28 | **The Engine's Native Tongue** | System calls; a C on-ramp; tracing a program with `strace` | Ch 1 (finish) · Ch 2 (begin) | Work Order 02 — **due Sun Aug 30** | **Kureos assigned** (zyBooks 12.1) |
 | 3 | Aug 31 – Sep 4 | **The Pantograph Desks** | Processes: `fork`/`exec`/`wait`, `/proc`, `pstree`, zombies | Ch 2 (finish) | Work Order 03 | — |
 | 4 | Sep 7 – 11 | **The Dispatch Board** | CPU scheduling: priorities, `nice`, `chrt`/`SCHED_FIFO`, cgroup limits *(class held Labor Day, Mon Sep 7)* | Ch 3 | Work Order 04 | — |
 | 5 | Sep 14 – 18 | **The Twin Looms** | Threads and data races with pthreads | Ch 4.1 (process interactions, critical sections) | Work Order 05 | **Kureos due** (Fri Sep 18) · **HUSH assigned** (12.2) |

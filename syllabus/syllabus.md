@@ -151,9 +151,10 @@ stubborn laptop.
 | **Wednesday & Friday** | **Studio.** You work the work order on your own machine while the instructor circulates. This is the heart of the course — come, and bring your questions. |
 | **Friday, 11:59 pm** | Work order deliverables due on **Canvas**. |
 
-**One exception, all semester:** fall break falls on Friday, October 2, so
-**Week 7's deliverables are due Monday, October 5 at 11:59 pm** instead.
-Nothing is due over the break. Every other week turns in on Friday; when
+**Two exceptions all semester.** Week 2's deliverables are due **Sunday,
+August 30 at 11:59 pm**. And fall break falls on Friday, October 2, so
+**Week 7's deliverables are due Monday, October 5 at 11:59 pm** instead —
+nothing is due over the break. Every other week turns in on Friday; when
 in doubt, [`schedule.md`](schedule.md) has the date.
 
 Every work order is built the same way: a short situation, the plain

@@ -69,7 +69,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 # on its own, is Week 4's business -- its work order covers it.
 echo "== installing the course toolchain (the slow part) =="
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
-  strace lsof psmisc procps htop sysstat time \
+  strace ltrace lsof psmisc procps htop sysstat time \
   build-essential gdb valgrind pkg-config \
   man-db manpages manpages-dev \
   vim nano tmux tree file less curl git unzip \
@@ -138,7 +138,7 @@ fi
 echo
 echo "== done -- tool check =="
 miss=0
-for t in gcc g++ make gdb strace valgrind pkg-config mkfs.ext4 debugfs man; do
+for t in gcc g++ make gdb strace ltrace valgrind pkg-config mkfs.ext4 debugfs man; do
   if command -v "$t" >/dev/null 2>&1; then
     printf '  ok   %s\n' "$t"
   else
