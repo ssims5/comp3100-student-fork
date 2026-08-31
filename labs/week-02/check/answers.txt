@@ -1,0 +1,19 @@
+# Work Order No. 1851-02 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-02:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m2 and m3) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+
+# A1 (Task 2) -- from your `strace -c ls` table: the TOTAL number of
+# system calls counted, bottom line of the table. A rough number is fine;
+# it changes a little from run to run.
+A1: 100.00    0.005848          38       150        16 total
+
+# A2 (Task 2) -- the full path of the file the card-reader writes to but
+# never mentions in its printed report. (Hidden things still have paths.)
+A2: ~/enginehouse/bin/card-reader/.ledger-annex
+
+# A3 (Task 3) -- one or two sentences in your own words: when a program's
+# printed output and its system-call record disagree, which is the truer
+# account of what the program actually did, and why? (zyBooks 1.2 -- think
+# user mode vs kernel mode, and who is allowed to touch the hardware.)
+A3: A system call is much more accurate compared to the printed output of a program. The system call is the gatekeeper it stands in-between the kernel and the user mode and records EVERYTHING that happens, nothing gets through. While on the other hand a programs checker only checks certain parameters set up beforehand so it often missing things. 

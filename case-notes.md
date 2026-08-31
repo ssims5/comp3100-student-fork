@@ -16,7 +16,7 @@ and never did.
 
 | Week | What I found | Where/how | What I think it means |
 | 1 | A punch card. |Opened punch-card-fragment.txt in inbox | I came across a punch card that did not align with the standard of the Enginehouse. The punch card fragment has 12 rows with 20 punch slots. Each row had two punches with the eighth being punched all but one time. I am currently unsure of its potential meaning. |
-| 2 |  |  |  |
+| 2 | I found a ledger that is hidden but stamped with approval | I found it in a hidden file .ledger-annex | It appears that the town is running out of water quickly and someone is keeping track by hand without pay and without help of the new machine. |
 | 3 |  |  |  |
 | 4 |  |  |  |
 
