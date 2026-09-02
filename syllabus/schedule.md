@@ -17,7 +17,7 @@ changes will be changed here first and announced in class and on Canvas.
 | **Before Wednesday's class** | That week's **zyBooks reading** (participation + challenge activities) is due. |
 | **Monday** | Episode deck: the week's story beat, then the concept lecture, then the briefing for the week's work order. |
 | **Wednesday & Friday** | Studio. You work the work order at your own machine; the instructor circulates. |
-| **Friday, 11:59 pm** | **Work order deliverables due on Canvas:** your `logbook.md` for the week (wax seals pasted in) plus your updated running `case-notes.md`. |
+| **Sunday, 11:59 pm** | **Work order deliverables due on Canvas:** your `logbook.md` for the week (wax seals pasted in) plus your updated running `case-notes.md`. |
 
 Commissions (the five department projects) are **submitted in zyBooks**,
 not Canvas, and are due at **11:59 pm** on the date listed below.
@@ -30,7 +30,7 @@ not Canvas, and are due at **11:59 pm** on the date listed below.
    sessions (Mon Sep 28 and Wed Sep 30), and its work order is sized for
    two sessions. **Nothing is due over the break: Week 7's deliverables
    move to Monday, October 5, at 11:59 pm.** This is the only week all
-   semester that does not turn in on a Friday. Week 8 begins that same
+   semester that does not turn in on a Sunday. Week 8 begins that same
    Monday as normal.
 3. **Thanksgiving, Monday–Friday, November 23–27 — no class all week.**
    Nothing is due that week. The Engine rests; so do you.
@@ -44,10 +44,10 @@ reading. The last deadline of the semester is Friday, December 4.
 
 ## The semester, week by week
 
-| Wk | Dates (Mon–Fri) | Episode | Topic | zyBooks (due Wed) | Deliverables due 11:59 pm (Friday unless noted) | Commissions |
+| Wk | Dates (Mon–Fri) | Episode | Topic | zyBooks (due Wed) | Deliverables due 11:59 pm (Sunday unless noted) | Commissions |
 |---|---|---|---|---|---|---|
-| 1 | Aug 17 – 21 | **Induction Day** | What an operating system is; your Linux environment; the shell; manual pages | Ch 1 | Work Order 01 | — |
-| 2 | Aug 24 – 28 | **The Engine's Native Tongue** | System calls; a C on-ramp; tracing a program with `strace` | Ch 1 (finish) · Ch 2 (begin) | Work Order 02 — **due Sun Aug 30** | **Kureos assigned** (zyBooks 12.1) |
+| 1 | Aug 17 – 21 | **Induction Day** | What an operating system is; your Linux environment; the shell; manual pages | Ch 1 | Work Order 01 — **due Fri Aug 21** (before the move to Sunday deadlines) | — |
+| 2 | Aug 24 – 28 | **The Engine's Native Tongue** | System calls; a C on-ramp; tracing a program with `strace` | Ch 1 (finish) · Ch 2 (begin) | Work Order 02 | **Kureos assigned** (zyBooks 12.1) |
 | 3 | Aug 31 – Sep 4 | **The Pantograph Desks** | Processes: `fork`/`exec`/`wait`, `/proc`, `pstree`, zombies | Ch 2 (finish) | Work Order 03 | — |
 | 4 | Sep 7 – 11 | **The Dispatch Board** | CPU scheduling: priorities, `nice`, `chrt`/`SCHED_FIFO`, cgroup limits *(class held Labor Day, Mon Sep 7)* | Ch 3 | Work Order 04 | — |
 | 5 | Sep 14 – 18 | **The Twin Looms** | Threads and data races with pthreads | Ch 4.1 (process interactions, critical sections) | Work Order 05 | **Kureos due** (Fri Sep 18) · **HUSH assigned** (12.2) |
@@ -116,7 +116,7 @@ followed the story.
 - **First class:** Monday, August 17
 - **Labor Day (class held):** Monday, September 7
 - **Fall break (no class):** Friday, October 2 — Week 7's deliverables are
-  due **Monday, October 5**, the semester's only non-Friday deadline
+  due **Monday, October 5**, the semester's only non-Sunday deadline
 - **Exam I:** Wednesday, October 7
 - **Thanksgiving break (no class):** November 23–27
 - **Sealed verdict due:** Monday, November 30, start of class

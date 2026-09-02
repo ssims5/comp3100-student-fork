@@ -149,12 +149,16 @@ stubborn laptop.
 | **Before Wednesday's class** | The week's zyBooks reading is due (participation + challenge activities). |
 | **Monday** | Episode deck: the week's story beat (~10 minutes), the concept lecture (~25 minutes), then the briefing for the week's work order. |
 | **Wednesday & Friday** | **Studio.** You work the work order on your own machine while the instructor circulates. This is the heart of the course — come, and bring your questions. |
-| **Friday, 11:59 pm** | Work order deliverables due on **Canvas**. |
+| **Sunday, 11:59 pm** | Work order deliverables due on **Canvas**. |
 
-**Two exceptions all semester.** Week 2's deliverables are due **Sunday,
-August 30 at 11:59 pm**. And fall break falls on Friday, October 2, so
-**Week 7's deliverables are due Monday, October 5 at 11:59 pm** instead —
-nothing is due over the break. Every other week turns in on Friday; when
+**Work orders are due Sunday night, not Friday.** Friday's studio is the
+last session you get help in, but the weekend is yours to finish and
+write up in — which is deliberate, because the write-up is the part that
+is graded and it goes better when it is not done at 11 pm on a Friday.
+
+**One exception all semester.** Fall break falls on Friday, October 2,
+so **Week 7's deliverables are due Monday, October 5 at 11:59 pm** —
+nothing is due over the break. Every other week turns in on Sunday; when
 in doubt, [`schedule.md`](schedule.md) has the date.
 
 Every work order is built the same way: a short situation, the plain

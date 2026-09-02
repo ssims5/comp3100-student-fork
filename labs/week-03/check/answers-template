@@ -1,0 +1,18 @@
+# Work Order No. 1851-03 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-03:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m2 and m3) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+
+# A1 (Task 2) -- the one-letter STATE code ps printed for the finished child
+# its parent had not yet collected, plus the name of the call the parent
+# must make to collect it. One line, e.g.:  X, collected with somecall()
+A1:
+
+# A2 (Task 3) -- the line in the running job's environment that names a
+# patron. Copy it exactly as `tr '\0' '\n' < /proc/<pid>/environ` gave it,
+# including the value.
+A2:
+
+# A3 (Task 3) -- the number on the PPid line of that job's
+# /proc/<pid>/status. Just the number.
+A3:
