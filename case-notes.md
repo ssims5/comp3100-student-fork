@@ -17,7 +17,7 @@ and never did.
 | Week | What I found | Where/how | What I think it means |
 | 1 | A punch card. |Opened punch-card-fragment.txt in inbox | I came across a punch card that did not align with the standard of the Enginehouse. The punch card fragment has 12 rows with 20 punch slots. Each row had two punches with the eighth being punched all but one time. I am currently unsure of its potential meaning. |
 | 2 | I found a ledger that is hidden but stamped with approval | I found it in a hidden file .ledger-annex | It appears that the town is running out of water quickly and someone is keeping track by hand without pay and without help of the new machine. |
-| 3 |  |  |  |
+| 3 | TABLE OF PRODUCTS -- computed by hand, entered fair, in ink | I came across this when searching through the loom tender tables | I am still unsure of what this means, I have not been able to connect any dots, however I do see a pattern of odd and unusual things happening around Brassbridge |
 | 4 |  |  |  |
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
