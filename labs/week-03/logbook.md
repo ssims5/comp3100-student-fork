@@ -49,9 +49,11 @@ I looked at ppids to see what was running and learned that many things run in th
 ## Reflection
 
 1. fork() copies a process; execvp() replaces the program inside one. Most languages you have used offer a single "run this command" call instead. In a paragraph: what does splitting the job into two steps let a shell do between them that a single call would not? (You built the seam yourself in Task 1 — everything your shell does with redirection and pipes happens in that gap.)
-Splitting the job creates an area where the child process exists but has not started running. In this window of time the child can be manipulated by the shell to use systems not called by the parent, allowing for a distinct outcome from a child. 
+
+Splitting the job creates an area where the child process exists but has not started running a new program. In this window of time the child can be manipulated by the shell to use systems not called by the parent, allowing for a distinct outcome from a child. Simply running blank command call would not give the shell the same amount of customization between the child creation and execution.
 
 2. A zombie has finished but has not been collected; an orphan is still running but its parent is gone. You met one of each this week. In two or three sentences: which resources does each one hold, who is responsible for clearing each, and why is the zombie the one that can bring a machine down?
+
 A zombie process does noy hold memory or resources from the CPU but an orphan continues to run and consumes normal amounts or resources. If the parent process dies the orphan may be adopted while the zombie continues to run. If a zombie is not collected or killed however they can begin to accumulate and can exhaust tth amount of pids available so the os would not be able to launch any more processes.
 
 ## Sources and help
