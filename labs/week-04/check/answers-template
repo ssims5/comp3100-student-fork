@@ -1,0 +1,26 @@
+# Work Order No. 1851-04 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-04:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1, m2, m3) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+
+# A1 (Task 1) -- your two looms' settled baseline rates at courtesy 19 on a
+# quiet floor. Copy a rate line for each, e.g.:
+#   loom north: NNNN lines/sec (courtesy 19) / loom south: NNNN lines/sec
+A1:
+
+# A2 (Task 2) -- the worst starved rate a loom reported during the drill.
+# The number, with its unit if you like.
+A2:
+
+# A3 (Task 2) -- the first two numbers of the schedule on the line you
+# struck out: which one is the minute, which one is the hour, and what
+# time of day they name together. One line.
+A3:
+
+# A4 (Task 3) -- the "current scheduling policy" line printed inside the
+# real-time demo, copied exactly.
+A4:
+
+# A5 (Task 3) -- one settled rate line from the governed loom, copied
+# exactly as printed.
+A5:

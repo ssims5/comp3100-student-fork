@@ -1049,7 +1049,8 @@ says, and what the drill turned up.
 >   `ps -eo pid,ppid,cmd --forest` draws the same tree, and Appendix IV
 >   of Monday's deck has that form on a card.
 > - Your `PPid` reads `1` with no relay in between? Perfectly correct —
->   see the container box below. Record the `1`.
+>   see the bench note above ("how many rungs you climb depends on your
+>   bench"). Record the `1`.
 > - `m3` failed? A2 must contain the patron line as printed (copy and
 >   paste it, don't retype from memory), and A3 must be the number
 >   itself, not a sentence about it.

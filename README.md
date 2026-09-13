@@ -66,7 +66,7 @@ move rather than a lost evening.
    lecture, then the briefing for the week's work order.
 2. **Wednesday & Friday** — studio. You work the work order at your own
    bench while the instructor circulates.
-3. **Friday, 11:59 pm** — your `logbook.md` and your running
+3. **Sunday, 11:59 pm** — your `logbook.md` and your running
    `case-notes.md` are due on Canvas.
 
 Each work order starts the same way — from the week's folder:

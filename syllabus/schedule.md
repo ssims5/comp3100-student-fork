@@ -29,9 +29,8 @@ not Canvas, and are due at **11:59 pm** on the date listed below.
 2. **Fall break, Friday, October 2 — no class.** Week 7 has only two
    sessions (Mon Sep 28 and Wed Sep 30), and its work order is sized for
    two sessions. **Nothing is due over the break: Week 7's deliverables
-   move to Monday, October 5, at 11:59 pm.** This is the only week all
-   semester that does not turn in on a Sunday. Week 8 begins that same
-   Monday as normal.
+   move to Monday, October 5, at 11:59 pm.** This is the semester's only
+   Monday deadline. Week 8 begins that same Monday as normal.
 3. **Thanksgiving, Monday–Friday, November 23–27 — no class all week.**
    Nothing is due that week. The Engine rests; so do you.
 
@@ -61,16 +60,18 @@ reading. The last deadline of the semester is Friday, December 4.
 | 13 | Nov 9 – 13 | **The Brass Keys** | Applied security: users and groups, permissions, `setuid`, `sudo`, authentication logs | — *(Ch 10 optional)* | Work Order 13 | **A Good Sport assigned** (12.4) |
 | 14 | Nov 16 – 20 | **The Aetheric Exchange** | Ports and sockets: auditing every listening service with `ss`/`netstat` | — *(Ch 11 optional)* | Work Order 14 | **Versioning due** (Fri Nov 20) |
 | — | Nov 23 – 27 | *Thanksgiving break — the Engine rests* | No class, nothing due | — | — | — |
-| 15 | Nov 30 – Dec 4 | **The Reveal & the Exhibition** | Mon: the reveal · Wed: the finale · Fri: epilogue and the Exhibition (last class) | — | Work Order 15 · **sealed verdict due Mon Nov 30, start of class** | **A Good Sport due** (Fri Dec 4) |
+| 15 | Nov 30 – Dec 4 | **The Reveal & the Exhibition** | Mon: sealed verdicts collected · Wed: the finale and the reveal · Fri: epilogue and the Exhibition (last class) | — | Work Order 15 — **due Fri Dec 4** (last class) · **sealed verdict due Mon Nov 30, start of class** | **A Good Sport due** (Fri Dec 4) |
 | Finals | Dec 7 – 11 | **Guild Examination II** | Final exam: Ch 6–8 plus the applied weeks (12–14), lightly | — | *(nothing due — the exam only)* | — |
 
 **Reading the table.** "Work Order *NN*" means the week's lab: submit
 `logbook.md` and your updated `case-notes.md` on Canvas by 11:59 pm
-Friday — except in Week 7, where fall break pushes the deadline to
-Monday, October 5. A work order's number is its week's number, so there
-are **fourteen graded work orders** — one every week except exam week,
-and no Work Order 08. None are dropped. The exact zyBooks activity list
-for each week is posted in Canvas alongside the chapter range above.
+**Sunday** — except Week 1 (due Fri Aug 21, before the move to Sunday
+deadlines), Week 7 (fall break pushes it to Monday, October 5), and
+Week 15 (due Fri Dec 4, the last class). A work order's number is its
+week's number, so there are **fourteen graded work orders** — one
+every week except exam week, and no Work Order 08. None are dropped.
+The exact zyBooks activity list for each week is posted in Canvas
+alongside the chapter range above.
 
 **Class meetings.** The course meets **44 times**: three days a week
 across the fifteen teaching weeks, less Friday, October 2 for fall
@@ -116,7 +117,7 @@ followed the story.
 - **First class:** Monday, August 17
 - **Labor Day (class held):** Monday, September 7
 - **Fall break (no class):** Friday, October 2 — Week 7's deliverables are
-  due **Monday, October 5**, the semester's only non-Sunday deadline
+  due **Monday, October 5**, the semester's only Monday deadline
 - **Exam I:** Wednesday, October 7
 - **Thanksgiving break (no class):** November 23–27
 - **Sealed verdict due:** Monday, November 30, start of class
