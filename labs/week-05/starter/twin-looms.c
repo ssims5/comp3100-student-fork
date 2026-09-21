@@ -16,6 +16,8 @@
 
 /* The ledger's running total. Both looms write it. Nothing guards it. */
 static long total = 0;
+/* The guard on the ledger. Only one loom may hold it at a time. */
+static pthread_mutex_t ledger_guard = PTHREAD_MUTEX_INITIALIZER;
 
 struct loom {
     const char *name;
@@ -30,7 +32,9 @@ static void *weave(void *arg)
 
     for (i = 0; i < l->entries; i++) {
         /* One entry: add it to the ledger, and tally it as our own. */
+	pthread_mutex_lock(&ledger_guard);
         total = total + 1;
+	pthread_mutex_unlock(&ledger_guard);
         l->woven++;
     }
     return NULL;

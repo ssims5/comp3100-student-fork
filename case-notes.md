@@ -19,6 +19,7 @@ and never did.
 | 2 | I found a ledger that is hidden but stamped with approval | I found it in a hidden file .ledger-annex | It appears that the town is running out of water quickly and someone is keeping track by hand without pay and without help of the new machine. |
 | 3 | TABLE OF PRODUCTS -- computed by hand, entered fair, in ink | I came across this when searching through the loom tender tables | I am still unsure of what this means, I have not been able to connect any dots, however I do see a pattern of odd and unusual things happening around Brassbridge |
 | 4 | #                                        By order of ███ | I found it by looking through cron-tab | It means someone is placing orders that do not want to be found. They are holding things up and slowing the Engine down through what seems to be approved means but still does not want others to know who it is. |
+| 5 | I found the numbers in the ledger that do not match.  | I found it by looking into places that wanted to stay hidden | I think it means the Analytical Engine is wrong about numbers and someone is keeping track of the real ones, but why I am unsure |
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
 two per column is plenty, and a note that turns out to be nothing
