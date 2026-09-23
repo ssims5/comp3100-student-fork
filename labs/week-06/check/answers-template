@@ -1,0 +1,64 @@
+# Work Order No. 1851-06 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-06:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m5) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# Where a slot wants more than one number, put them all on the one line, in
+# the order the task gives them. Commas inside a figure are fine: 120,000
+# and 120000 are read the same way, everywhere.
+
+# A1 (Task 1) -- three numbers from your FIXED interlocking run, in this
+# order: "trains booked through", then "crossings a second train came onto
+# the line during", then "day-book entries found in another hand". E.g.:
+#   A1: NNNNNN through, N clashes, N in another hand
+#
+# (Your idle-look figure is NOT wanted here. It varies by orders of
+# magnitude between benches and there is nothing to check it against. It
+# goes in your logbook, with a sentence saying it is yours alone.)
+A1:
+
+# A2 (Task 2) -- the "deepest the chute ever got" figure from your FIXED
+# sorting-floor run. One number.
+A2:
+
+# A3 (Task 2) -- two numbers from the same run, on this one line:
+# "cards tipped in" and "cards carried away". They must be equal; if they
+# are not, the floor is not fixed yet and the answer file is not the place
+# to settle it.
+A3:
+
+# A4 (Task 3) -- two numbers from your FIXED ledger-hall run, on this one
+# line: "pages read" and "pages that did not balance". The second one is
+# the result.
+A4:
+
+# A5 (Task 4) -- from the STALLED run, before your fix: all five
+# philosophers by name, and for each one, the fork they were holding and
+# the fork they were waiting for. One line, in your own words. It will be
+# a long line; that is expected.
+#
+#   e.g. NAME holds fork N and waits for fork N (held by NAME), NAME ...
+A5:
+
+# A6 (Task 4) -- ONE SENTENCE stating the rule you applied to break the
+# ring. The rule, not the diff -- a sentence somebody could follow without
+# seeing your code, and could apply to a different program tomorrow.
+#
+#   Name the thing that gets taken in order -- the forks at this table, or
+#   locks in general -- and say what your rule does to that order. Saying it
+#   in general terms is the better answer here, not a worse one.
+A6:
+
+# A7 (Task 5) -- two things on this one line:
+#   * the uid from the lock record, as a numeral;
+#   * what the house roll says that uid was FOR -- the description field,
+#     the fifth colon-separated field of the roll entry, copied as the roll
+#     spells it. Do not paraphrase it into one word.
+#
+# The account's NAME is not asked for and does not belong here. What you
+# make of it goes in your own case notes.
+A7:
