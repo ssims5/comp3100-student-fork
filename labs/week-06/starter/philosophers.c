@@ -55,29 +55,30 @@ static void pause_briefly(long milliseconds)
 static void *dine(void *arg)
 {
     struct philosopher *p = arg;
-    int left  = p->seat;
-    int right = (p->seat + 1) % PHILOSOPHERS;
+    int left   = p->seat;
+    int right  = (p->seat + 1) % PHILOSOPHERS;
+    int first  = (left < right) ? left : right;
+    int second = (left < right) ? right : left;
 
     while (p->meals < MEALS_WANTED) {
-        printf("  %-9s takes the fork on the left  (fork %d)\n", NAME[p->seat], left);
+        printf("  %-9s takes the lower-numbered fork  (fork %d)\n", NAME[p->seat], first);
         fflush(stdout);
-        pthread_mutex_lock(&fork_on_table[left]);
-
+        pthread_mutex_lock(&fork_on_table[first]);
         /* A moment to settle, and a look up the table, before reaching
          * across for the other one. */
         pause_briefly(120);
 
-        printf("  %-9s reaches for the fork on the right (fork %d)\n", NAME[p->seat], right);
+        printf("  %-9s reaches for the other fork (fork %d)\n", NAME[p->seat], second);
         fflush(stdout);
-        pthread_mutex_lock(&fork_on_table[right]);
+        pthread_mutex_lock(&fork_on_table[second]);
 
         p->meals++;
         meals_served++;
         printf("  %-9s eats. (%ld)\n", NAME[p->seat], p->meals);
         fflush(stdout);
 
-        pthread_mutex_unlock(&fork_on_table[right]);
-        pthread_mutex_unlock(&fork_on_table[left]);
+        pthread_mutex_unlock(&fork_on_table[second]);
+        pthread_mutex_unlock(&fork_on_table[first]);
         pause_briefly(10);
     }
     return NULL;

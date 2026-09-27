@@ -20,6 +20,7 @@ and never did.
 | 3 | TABLE OF PRODUCTS -- computed by hand, entered fair, in ink | I came across this when searching through the loom tender tables | I am still unsure of what this means, I have not been able to connect any dots, however I do see a pattern of odd and unusual things happening around Brassbridge |
 | 4 | #                                        By order of ███ | I found it by looking through cron-tab | It means someone is placing orders that do not want to be found. They are holding things up and slowing the Engine down through what seems to be approved means but still does not want others to know who it is. |
 | 5 | I found the numbers in the ledger that do not match.  | I found it by looking into places that wanted to stay hidden | I think it means the Analytical Engine is wrong about numbers and someone is keeping track of the real ones, but why I am unsure |
+| 6 | The held-by-uid: line, the session opened: line and the taken: line from lever-07.lock — all three. The holder present ... lines from lock-record.txt, in full. The roll's description field for uid 1849, word for word, and the login shell it carries. | By looking the house roll | Something was not completed long time ago and it is still holding things up. |
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
 two per column is plenty, and a note that turns out to be nothing

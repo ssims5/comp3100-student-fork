@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 /* ledger-hall.c -- Work Order No. 1851-06, the ledger hall.
  *
  * One page. The four district balances down the side -- Northgate,
@@ -36,6 +37,10 @@ static const long OPENING[DISTRICTS] = { 53515, 61245, 44635, 54665 };
 static long balance[DISTRICTS];
 static long stated_total;
 
+/* The rail. Any number of readers may stand at it together; the pen may
+ * not be at the page while anybody is standing there. */
+static pthread_rwlock_t page_lock;
+
 static int hall_closed = 0;   /* set when the clerk puts the pen down */
 
 struct reader {
@@ -58,11 +63,13 @@ static void *read_the_page(void *arg)
         long sum = 0;
         int  d;
 
+        pthread_rwlock_rdlock(&page_lock);
         for (d = 0; d < DISTRICTS; d++) {
             seen[d] = balance[d];
             sum += seen[d];
         }
         foot = stated_total;
+        pthread_rwlock_unlock(&page_lock);
 
         r->pages_read++;
         if (sum == foot) {
@@ -89,11 +96,16 @@ static void *post_the_figures(void *arg)
         int d;
 
         /* One entry at a time, down the column, as a pen does. */
+        pthread_rwlock_wrlock(&page_lock);
+
+        /* One entry at a time, down the column, as a pen does. */
         for (d = 0; d < DISTRICTS; d++)
             balance[d] = OPENING[d] + n;
 
         /* And the total at the foot, when the column is done. */
         stated_total = OPENING_SUM + n * DISTRICTS;
+
+        pthread_rwlock_unlock(&page_lock);
     }
 
     hall_closed = 1;
@@ -107,6 +119,17 @@ int main(void)
     pthread_t clerk;
     long read_total = 0, balanced_total = 0, torn_total = 0;
     int i, d, shown = 0;
+
+    {
+        /* The pen gets priority. Six readers at a tight rail never all
+         * step back at once, and a default lock would leave the clerk
+         * standing there for good. */
+        pthread_rwlockattr_t how;
+
+        pthread_rwlockattr_init(&how);
+        pthread_rwlockattr_setkind_np(&how, PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP);
+        pthread_rwlock_init(&page_lock, &how);
+    }
 
     for (d = 0; d < DISTRICTS; d++)
         balance[d] = OPENING[d];

@@ -38,6 +38,14 @@
  * four gatemen write it, and nothing at all stands between them. */
 static int line_taken = 0;
 
+/* The frame's own guard. Nothing about the frame -- the lever, the
+ * day-book, the holder -- is read or written without it. */
+static pthread_mutex_t frame_guard = PTHREAD_MUTEX_INITIALIZER;
+
+/* Word that lever 07 has come back to normal. A gateman waits on this
+ * instead of staring at the lever. */
+static pthread_cond_t lever_free = PTHREAD_COND_INITIALIZER;
+
 /* The day-book: one line, rewritten for every train, saying whose train
  * has the single line. */
 static char day_book[DAYBOOK];
@@ -75,9 +83,11 @@ static void *work_the_frame(void *arg)
         /* Wait for the line. Look at the lever. Look at it again. Nobody
          * will tell him when it has moved, so he keeps looking, and books
          * nothing for his trouble. */
-        while (line_taken != 0)
+                pthread_mutex_lock(&frame_guard);
+        while (line_taken != 0) {
             g->idle_looks++;
-
+            pthread_cond_wait(&lever_free, &frame_guard);
+        }
         /* It looked clear. He steps across to the day-book and enters the
          * train -- the frame carries no train it has no entry for -- and
          * then steps back and throws the lever. Looking and throwing are
@@ -89,7 +99,7 @@ static void *work_the_frame(void *arg)
 
         line_taken = 1;
         line_holder = g->number;
-
+	pthread_mutex_unlock(&frame_guard);
         /* The train runs through. It is long, and he is not needed while
          * it does, so partway along he stands aside and lets the floor
          * get on. A crossing is not one instant either. */
@@ -113,7 +123,11 @@ static void *work_the_frame(void *arg)
             entries_in_two_hands++;
 
         g->crossings++;
+
+        pthread_mutex_lock(&frame_guard);
         line_taken = 0;
+        pthread_cond_signal(&lever_free);
+        pthread_mutex_unlock(&frame_guard);
     }
     return NULL;
 }
