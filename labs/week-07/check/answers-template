@@ -1,0 +1,62 @@
+# Work Order No. 1851-07 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-07:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m3) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# Where a slot wants more than one number, put them all on the one line,
+# with SPACES between them. A comma is read as part of a figure (120,000 and
+# 120000 are one number, everywhere), so 07,21 would be read as 0721.
+# Box names may be written however you like to type them -- Old Quarter,
+# old-quarter and OLDQUARTER are read as one name, everywhere.
+
+# A1 (Task 1) -- the SECONDS of each of the four holds in the acquisition
+# log: the last two digits of every "hold taken" time. Four numbers, any
+# order; a leading zero is fine either way. E.g.:
+#   A1: NN NN NN NN
+A1:
+
+# A2 (Task 1) -- the gap between one hold and the next, in whole seconds.
+# One number, worked out from the log yourself, and nothing else on the
+# line that looks like a number.
+A2:
+
+# A3 (Task 1) -- the ONE box the manual page says a release order should
+# name, spelled as the log spells it. The box, not the rule.
+A3:
+
+# A4 (Task 2) -- the ring, from your own backtraces, as a chain of waits
+# that goes all the way round and back to where it started:
+#   A4: X waits for Y, Y waits for Z, Z waits for W, W waits for X
+# "Waits for" means: X's take_lever frame is asking for the lever that Y
+# holds. Any box may come first; the direction is what matters. Only the
+# chain goes on this line; asides and reasons go in your logbook.
+A4:
+
+# A5 (Task 2) -- the line number gdb reports for the waiting lock: the
+# number after "ring-frame.c:" in any take_lever frame. Not a frame number
+# (after the #), not a thread number, not an LWP. One number.
+A5:
+
+# A6a to A6d (Task 3) -- the four conditions for deadlock, ONE to a line.
+# Each line starts with the condition's name, then carries its evidence
+# from your own gdb screen on the SAME line: the command, and what it
+# printed that shows the condition holding. Any order will do; the order
+# Task 3 teaches them in is the easiest. E.g.:
+#   A6a: <condition> -- <command>: <what it showed>
+A6a:
+A6b:
+A6c:
+A6d:
+
+# A7 (Task 3) -- the line the frame printed when it honoured your release
+# order. Copy it whole, exactly as it came out.
+A7:
+
+# A8 (Task 3) -- the ONE condition the release broke, by the name Task 3
+# gives it, alone on the line. Why it is that one, and not another, goes
+# in your logbook.
+A8:

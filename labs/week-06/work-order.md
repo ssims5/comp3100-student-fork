@@ -1840,8 +1840,9 @@ words.
 - **Commission II — *The Speaking-Tube Console*** (zyBooks 12.2, "HUSH") is
   under way and due **Friday, October 16, 11:59 pm, in zyBooks** — not
   Canvas. That is four weeks out and it is the last quiet stretch you will
-  get before it: Week 7 is a full week, Week 8 is the examination. If you
-  have not opened it yet, open it this week. The cover is at
+  get before it: Week 7 is a short week (fall break takes its Friday), and
+  Week 8 is the examination. If you have not opened it yet, open it this
+  week. The cover is at
   [`commissions/02-speaking-tube-console.md`](../../commissions/02-speaking-tube-console.md).
 - An **open HUSH workshop** runs **Friday, October 9** — bring whatever you
   have, finished or not. It is the Friday of examination week and it is

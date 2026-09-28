@@ -100,8 +100,9 @@ week a work order is due, and it will not check your deadline first.
 from the disk. Two ways to be safe, and you only need one:
 
 - **Your weekly Canvas upload already is one.** Turn in `logbook.md` and
-  `case-notes.md` every Friday and the worst a dead machine costs you is
-  the current week.
+  `case-notes.md` every week (Sunday, 11:59 pm, except the three weeks
+  the schedule moves: Weeks 1, 7 and 15) and the worst a dead machine
+  costs you is the current week.
 - **Or keep your own backup repository on GitHub** — see below. This is
   entirely optional.
 
@@ -127,11 +128,12 @@ copying before you edit:
 cp labs/week-01/work-order.md my-notes-week-01.md
 ```
 
-**The `starter/` files are the exception** — Weeks 2 and 3 ask you to
-repair `starter/hello-brassbridge.c` and `starter/pantograph.c` *in
-place*, because that is exactly what `make -C check m1` compiles. Edit
-those where they sit; `git checkout -- <file>` puts the original back if
-you need it.
+**The `starter/` files are the exception** — Weeks 2, 3, 5 and 6 ask you
+to repair `starter/` code *in place* (`hello-brassbridge.c`,
+`pantograph.c`, `twin-looms.c`, and all four of Week 6's programs),
+because those are exactly the files the seals compile and read. A later
+week that asks the same says so in its work order. Edit those where they
+sit; `git checkout -- <file>` puts the original back if you need it.
 
 If a pull does stop on a conflict, `git merge --abort` puts you back
 exactly where you were — nothing is lost. Bring it to studio; it is a
