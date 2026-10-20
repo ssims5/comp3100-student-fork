@@ -22,6 +22,18 @@ and never did.
 | 5 | I found the numbers in the ledger that do not match.  | I found it by looking into places that wanted to stay hidden | I think it means the Analytical Engine is wrong about numbers and someone is keeping track of the real ones, but why I am unsure |
 | 6 | The held-by-uid: line, the session opened: line and the taken: line from lever-07.lock — all three. The holder present ... lines from lock-record.txt, in full. The roll's description field for uid 1849, word for word, and the login shell it carries. | By looking the house roll | Something was not completed long time ago and it is still holding things up. |
 | 7 | 1851-09-23, The duty enginewright files a release order naming ONE box, and one only: the box whose claim is youngest -- that is, the box that took its hold last. It has held its lever the shortest while, and so it has the smallest share of the ring's work to lose by standing back, Kiln Row     release order honoured. Lever back to normal; waiting its turn. | If found it interesting that things can collide and stop but there are no warning signs, no one is told there are issues to be found. |
+|8| 1:/* store-siphon -- draws from the Store and keeps what it draws.  -- E.K. */
+6:/* Never more than this. The Engine shall not want for a block on my account.  -- E.K. */
+13:/* The draft is kept in cipher on paper; the Store keeps the fair copy.  -- E.K. */
+61:/* A fair copy is never written over. A new block for every hand.  -- E.K. */
+==8470== 0x4AA5C40[72]
+==8470== 0x4AA5CD0[38]
+==8470== 0x4AA5D40[36]
+==8470== 0x4AA5DB0[71]
+0x4aa5c40:      "To the Board of the Enginehouse, and to its guests at the Exhibition --"
+0x4aa5cd0:      "...they called our work superseded..."
+0x4aa5d40:      "...they called our work obsolete..."
+0x4aa5db0:      "A tool is obsolete. We were never the tool; we were the check upon it."| Someone is angry |
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
 two per column is plenty, and a note that turns out to be nothing

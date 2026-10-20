@@ -1,0 +1,63 @@
+# Work Order No. 1851-09 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-09:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m4) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# A comma is read as part of a figure, everywhere: copy valgrind's figures
+# with their commas or without, as you like (196,608 and 196608 are one
+# number). Where a slot wants one number, put no second number on the line.
+
+# A1 (Task 1) -- the five regions of the floor plan, by name, LOWEST address
+# first. The five names are bss, data, heap, stack and text (here in
+# alphabetical order, which is not the answer); put them in the order YOUR
+# addresses put them, with spaces or commas between. E.g.:
+#   A1: <lowest>, <next>, <next>, <next>, <highest>
+A1: text, data, bss, heap, stack
+
+# A2 (Task 1) -- did the ORDER of the five change between your two runs?
+# yes or no, first on the line. What did change goes in your logbook.
+A2:no
+
+# A3a to A3c (Task 2) -- the three faults valgrind found in the clerk AS
+# SHIPPED, before you mended anything, ONE to a line, any order. Each line:
+# valgrind's name for the fault (the heading of its report, or the words
+# before "in loss record"), then the line number it points to -- the first
+# line under the report that names store-clerk.c. E.g.:
+#   A3a: <kind> -- store-clerk.c:NN
+A3a: Invalid write of size 1 -- store-clerk.c:38
+A3b: Invalid read of size 4 -- store-clerk.c:67
+A3c: 105 (24 direct, 81 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 6 -- store-clerk.c:27
+
+# A4 (Task 2) -- valgrind's line about leaks, once your clerk is mended and
+# make audit is quiet. Copy it whole.
+A4: ==4330== All heap blocks were freed -- no leaks are possible
+
+# A5 (Task 3) -- every byte the Store's routine leaves definitely lost: the
+# BYTES on the "definitely lost" line under LEAK SUMMARY. One number.
+A5: 196,825
+
+# A6 (Task 3) -- the BLOCKS on that same line. One number.
+A6: 52
+
+# A7 (Task 3) -- the source line of the malloc behind the SMALLER loss
+# record: the number after store-siphon.c: on the first line under it that
+# names the source. One number.
+A7: 65
+
+# A8 (Task 3) -- the cap, as the source sets it. One number.
+A8: 48
+
+# A9 (Task 4) -- how many of the leaked blocks hold words. One number.
+A9: 4
+
+# A10 (Task 4) -- blocks 2 and 3 of record 1 differ by one word. Which word
+# does block 3 use? One word.
+A10: obsolete
+
+# A11 (Task 4) -- the mark the source's comments are signed with. Copy it
+# exactly -- letters and dots.
+A11: -- E.K.
