@@ -1285,7 +1285,7 @@ reflections cover all four in your own words.
   is due **Friday, October 16, 11:59 pm, in zyBooks** — not Canvas.
 - **Commission III — *The Pattern Loom*** (zyBooks 12.3, regular
   expressions) is assigned **Monday, October 12** and due **Friday,
-  October 30, 11:59 pm, in zyBooks** — not Canvas. The cover is at
+  November 6, 11:59 pm, in zyBooks** — not Canvas. The cover is at
   [`commissions/03-the-pattern-loom.md`](../../commissions/03-the-pattern-loom.md).
 
 > `SUBMISSION: EXPECTED BY SUNDAY 11:59 PM.`

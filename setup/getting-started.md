@@ -329,9 +329,13 @@ other two often don't, and a later week wants it.)
 Make sure you can run `strace ls` without `sudo`. (Attaching to an
 *already-running* process — `strace -p <pid>` — is a separate
 permission, blocked when `kernel.yama.ptrace_scope=1`, the default on
-Ubuntu and Arch. No work order asks for it, but it is a natural thing
-to try. Check with `sysctl kernel.yama.ptrace_scope`; relax it for the
-current boot with `sudo sysctl kernel.yama.ptrace_scope=0`.)
+Ubuntu and Arch. Week 10's survey asks you to attach `gdb` to a process
+that belongs to another user, and it does so with `sudo gdb -p`:
+`ptrace_scope=1` is why attaching as yourself fails, and root bypasses
+it, so you do not need to change the setting for that work order. Check
+the setting with `sysctl kernel.yama.ptrace_scope`; if you want to
+attach to your own processes without `sudo`, relax it for the current
+boot with `sudo sysctl kernel.yama.ptrace_scope=0`.)
 
 Prefer a VM that exactly matches the class? Multipass works on Linux
 too (`sudo snap install multipass`, needs `/dev/kvm`) — follow Path B

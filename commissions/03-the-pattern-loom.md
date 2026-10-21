@@ -9,7 +9,7 @@
 | **Commission** | ***The Pattern Loom*** — the third of five |
 | **Filed in the department's book as** | **zyBooks 12.3, "Regular Expressions"** |
 | **Assigned** | Monday, 12 October 1851 *(Week 9)* — eight weeks to the Exhibition |
-| **Due** | **Friday, October 30, 11:59 pm** *(Week 11)* — **submitted in zyBooks**, not Canvas |
+| **Due** | **Friday, November 6, 11:59 pm** *(Week 12)* — **submitted in zyBooks**, not Canvas |
 | **Worth** | 4% of the semester |
 
 ---
@@ -173,7 +173,7 @@ lists are where most patterns quietly fail.
       spec's examples — **`bad`** for the `keynote` line — and returns
       **`None`** for all four of its counter-examples.
 - [ ] You have **re-read the linked spec** after finishing, not before.
-- [ ] It is submitted in **zyBooks 12.3** by **Friday, October 30,
+- [ ] It is submitted in **zyBooks 12.3** by **Friday, November 6,
       11:59 pm**. Not Canvas. zyBooks.
 
 > `COMMISSION: ISSUED.`

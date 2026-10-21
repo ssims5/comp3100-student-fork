@@ -12,6 +12,8 @@ labs/week-06/starter/ledger-hall
 labs/week-06/starter/philosophers
 labs/week-09/starter/store-plan
 labs/week-09/starter/store-clerk
+labs/week-10/starter/storeroom
+labs/week-10/starter/glutton
 
 # Course PDFs are distributed through Canvas and zyBooks, not through git.
 *.pdf
