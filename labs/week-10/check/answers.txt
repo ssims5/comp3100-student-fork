@@ -1,0 +1,55 @@
+# Work Order No. 1851-10 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-10:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m4) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# A comma is read as part of a figure, everywhere: 1,024 and 1024 are one
+# number. Where a slot wants a set number of figures, put no extra numbers
+# on the line.
+
+# A1 (Task 1) -- the kinds of region your own /proc/$$/maps shows, and which
+# column carries the read/write/execute flags. Name at least heap, stack and
+# an anonymous region, and name the permissions column (the rwxp one). E.g.:
+#   A1: text, heap, stack, anonymous; the permissions column (rw-p)
+A1: text, heap, stack, anonymous; rwxsp
+
+# A2 (Task 1) -- the two fault deltas from storeroom, in order: the
+# FIRST-round minor faults, then the SECOND-round minor faults. Two numbers.
+# The first wobbles run to run (about one per page); the second is zero.
+#   A2: <first-round faults> <second-round faults>
+A2: +266 +0
+
+# A3 (Task 2) -- the Overseer's verdict and the limit that provoked it, on
+# one line: the oom-kill result from the governed run (or Monday's deck, if
+# your bench has no user systemd), and the MemoryMax figure. E.g.:
+#   A3: Failed with result 'oom-kill'; MemoryMax=64M
+A3: 48cd48fc17e82a0.scope: Failed with result 'oom-kill'; MemoryMax=64M
+
+# A4 (Task 3) -- the keeper's owner, as the uid you read from its status (or
+# from getent passwd). One number.
+A4: 1849    1849    1849    1849
+
+# A5 (Task 3) -- the walled-off room's shape: its permissions and its size,
+# and one sentence on why you could not read it as yourself. Copy the perms
+# exactly. E.g.:
+#   A5: ---p, 1024 KiB -- it belongs to another account, so its memory is
+#       walled off from mine without the house keys.
+A5: 1024       4       4 ---p   [ anon ] -- it belongs to someone else, so its memory is walled off with no key for me.
+
+# A6 (Task 4) -- one neutral word from the record's opening lines, copied
+# exactly (proof you opened the room). Not the city's or the works' name --
+# a word only the record itself uses.
+A6: uncut
+
+# A7 (Task 4) -- every year the record carries, and the desk the record
+# names. Every year and the desk, on the one line.
+A7: 1830-1849 1848 desk K, East gallery, at the wind-down.
+
+# A8 (Task 4) -- the two surnames the record attaches to that desk,
+# side by side, in either order. The record names two; write both. Draw no
+# conclusion -- what you make of it goes in your case notes, not here.
+A8: KUREOS THISTLEWOOD

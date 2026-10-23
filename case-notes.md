@@ -34,6 +34,21 @@ and never did.
 0x4aa5cd0:      "...they called our work superseded..."
 0x4aa5d40:      "...they called our work obsolete..."
 0x4aa5db0:      "A tool is obsolete. We were never the tool; we were the check upon it."| Someone is angry |
+|9| | |
+|10| BRASSBRIDGE ENGINEHOUSE -- OLD COMPUTING ROOM
+Preserved records of the computer corps, held whole for the
+Exhibition archive, uncut, as the archivist received them.
+  THE CHIEF COMPUTER'S RECORD
+  KUREOS, I. M. -- Chief Computer, retired without pension, 1849.
+  DESK-MARK ROSTER
+  E.K. = East gallery, desk K -- the Chief Computer's station.
+  Held by KUREOS, I. M., 1830-1849.
+  WIND-DOWN ROTA
+THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.
+  -- entered by the archivist. No conclusion is drawn. 
+THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.| This week I found that there are people hiding things within the engine with no one knowing, but it can be found. |
+
+
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
 two per column is plenty, and a note that turns out to be nothing
