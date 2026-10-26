@@ -1,0 +1,60 @@
+# Work Order No. 1851-11 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-11:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m4) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# Where a slot wants more than one number, put them all on the one line,
+# with SPACES between them. A comma is read as part of a figure (1,024 and
+# 1024 are one number, everywhere), so 15,16 would be read as 1516.
+# Inode numbers are read from YOUR bench, at check time: copy them from your
+# own screen, never from anybody else's.
+
+# A1 (Task 1) -- the inode number of the drill page register.txt: the first
+# column of ls -li in ~/enginehouse/ledger-halls/drill. One number.
+A1:
+
+# A2 (Task 1) -- the page's link count straight after your ln, before you
+# strike any name. One number.
+A2:
+
+# A3 (Task 1) -- the word ls -l printed in brackets at the end of the fd 3
+# line, once the open page had been removed. One word.
+A3:
+
+# A4 (Task 2) -- the cabinet's file-system type, and its block size in
+# bytes, as the cabinet itself reports them. E.g.:
+#   A4: <type> <block size>
+A4:
+
+# A5 (Task 2) -- the inode number the page filed under two names carries.
+# One number.
+A5:
+
+# A6 (Task 2) -- that inode's link count, as stat prints it. One number.
+A6:
+
+# A7 (Task 3) -- the weekday each of the five live pages was last written,
+# one per page, in THIS order: table-ix-1848-q1, q2, q3, q4, then
+# district-balances-1848. Five weekdays; Mon, Monday and monday all read
+# alike. E.g.:
+#   A7: <q1> <q2> <q3> <q4> <district balances>
+A7:
+
+# A8 (Task 3) -- the time of day the latest-written of those five pages was
+# last written, on the 24-hour clock, as your bench prints it: HH:MM, with
+# no date beside it.
+A8:
+
+# A9 (Task 4) -- how many deleted inodes lsdel found, then the inode numbers
+# of the three struck memoranda, any order. Four numbers, spaces between,
+# and nothing else that looks like a number. E.g.:
+#   A9: <count> <N> <N> <N>
+A9:
+
+# A10 (Task 4) -- the signer's post and the closing line of the memoranda,
+# exactly as written, both on the one line. (Not the signer's name.)
+A10:
