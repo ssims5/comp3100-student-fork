@@ -47,6 +47,7 @@ Exhibition archive, uncut, as the archivist received them.
 THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.
   -- entered by the archivist. No conclusion is drawn. 
 THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.| This week I found that there are people hiding things within the engine with no one knowing, but it can be found. |
+|11| I found that someone knew the rounding error and tried to have it's mistake corrected. Someone recommended a change but did anyone do anything about it? | I found the recommendation in a deleted file by following the Inodes like breadcrumbs | I believe this means someone hirer up must be hiding something if they deleted the acknowledgement of a calculating error. Maybe someone if skimming off the top? |
 
 
 
