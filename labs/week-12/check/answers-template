@@ -1,0 +1,63 @@
+# Work Order No. 1851-12 -- bench answers. Fill in after each colon.
+# Copy me first, from labs/week-12:   cp check/answers-template check/answers.txt
+# The seal checks (make -C check m1 ... m4) read check/answers.txt -- this
+# template stays untouched. Lines starting with # are notes, not answers.
+#
+# Keep each answer on its ONE labelled line. Every check reads the line that
+# starts with its label and nothing else, so a second line of working notes
+# is fine here but will not be read.
+#
+# Where a slot wants more than one number, put them all on the one line,
+# with SPACES between them. A comma is read as part of a figure (1,024 and
+# 1024 are one number, everywhere), so 7,1 would be read as 71 -- even
+# where your screen prints a comma between two numbers, write a space.
+# Some answers are read from YOUR bench at check time: copy them from your
+# own screen, never from anybody else's.
+
+# A1 (Task 1) -- the type letter of /dev/null (the first character of its
+# ls -l line), then its major and minor numbers, major first, with a space
+# between them. E.g.:
+#   A1: <letter> <major> <minor>
+A1:
+
+# A2 (Task 1) -- two byte counts, as wc -c printed them: first order.txt's
+# (the file from 2>&1 > order.txt), then both.txt's (the file from
+# > both.txt 2>&1). Two numbers.
+A2:
+
+# A3 (Task 1) -- the two PIPESTATUS figures bash printed for yes | head -1,
+# in the order it printed them, then how many accounts on THIS bench have
+# /usr/sbin/nologin as their shell. Three numbers.
+A3:
+
+# A4 (Task 2) -- your tube's type letter (the first character of its ls -l
+# line), then the word ls -l printed after the arrow for fd 0 inside a
+# pipeline. E.g.:
+#   A4: <letter> <word>
+A4:
+
+# A5 (Task 2) -- the two readers' counts from ONE run of the loop: a, then
+# b. Two numbers.
+A5:
+
+# A6 (Task 3) -- the type letters of the post's four fittings in the order a
+# capsule meets them (outbound, the tube it leads into, exchange-line, the
+# drop box), then the name of that hidden tube, as ls -lan prints it. E.g.:
+#   A6: <letter> <letter> <letter> <letter> <name>
+A6:
+
+# A7 (Task 3) -- the uid that owns the post's other fittings, as ls -lan
+# prints it, then the copier's command name, as pgrep -l prints it.
+A7:
+
+# A8 (Task 3) -- how many lines the drop box grew by for the ONE capsule you
+# sent. One number.
+A8:
+
+# A9 (Task 4) -- how many capsules the drop box held when it was staged (an
+# anchored count), then how many of those came FROM the Board. Two numbers.
+A9:
+
+# A10 (Task 4) -- how many cities the capsule with no sender addresses, in
+# digits, and its closing line, exactly as written, both on the one line.
+A10:
