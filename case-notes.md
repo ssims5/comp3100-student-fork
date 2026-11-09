@@ -48,7 +48,14 @@ THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.
   -- entered by the archivist. No conclusion is drawn. 
 THISTLEWOOD, N. -- seconded 1848; desk K, East gallery, at the wind-down.| This week I found that there are people hiding things within the engine with no one knowing, but it can be found. |
 |11| I found that someone knew the rounding error and tried to have it's mistake corrected. Someone recommended a change but did anyone do anything about it? | I found the recommendation in a deleted file by following the Inodes like breadcrumbs | I believe this means someone hirer up must be hiding something if they deleted the acknowledgement of a calculating error. Maybe someone if skimming off the top? |
-
+|11|CAPSULE 04 -- Fri 30 Oct 1851 -- FROM (none given) TO THE EXCHANGE -- HOLD
+To the Boards of the five sister cities, for the Exhibition's opening morning --
+Gentlemen: you are building Engines of your own, and you are invited to admire ours.
+Admire it. Then check it. Its tables have carried errors for years,
+and the men who could have caught them were sent home.
+A machine that is never checked is not trusted. It is only believed.
+Before you trust yours, find someone who will check it.
+your diligent servant, | I searched the capsules for information and they revealed things that had been kept secret from others for a long time | | This means the issues that I only suspected may have been known, where in fact known and someone tried to warn others about it. Who this person is still remains to be seen. |
 
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
