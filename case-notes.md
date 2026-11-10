@@ -56,6 +56,7 @@ and the men who could have caught them were sent home.
 A machine that is never checked is not trusted. It is only believed.
 Before you trust yours, find someone who will check it.
 your diligent servant, | I searched the capsules for information and they revealed things that had been kept secret from others for a long time | | This means the issues that I only suspected may have been known, where in fact known and someone tried to warn others about it. Who this person is still remains to be seen. |
+|12| sessions opened: 6; inside a documented visit: 6 | I found this after searching through and learning about getting access to different places with and without different credentials. | This means there was 6 times someone got into the room I was wanting to access, the sessions opened line makes me suspect that something was run, not just accessed. |
 
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
