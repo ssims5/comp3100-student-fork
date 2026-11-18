@@ -57,7 +57,7 @@ A machine that is never checked is not trusted. It is only believed.
 Before you trust yours, find someone who will check it.
 your diligent servant, | I searched the capsules for information and they revealed things that had been kept secret from others for a long time | | This means the issues that I only suspected may have been known, where in fact known and someone tried to warn others about it. Who this person is still remains to be seen. |
 |12| sessions opened: 6; inside a documented visit: 6 | I found this after searching through and learning about getting access to different places with and without different credentials. | This means there was 6 times someone got into the room I was wanting to access, the sessions opened line makes me suspect that something was run, not just accessed. |
-
+|13| A demonstration that cannot be stopped is a weapon; a demonstration that can be stopped is an argument. | This was found after searching through logs and communications | This is an intriguing quote after searching through communications that show others are trying to build their own engines and someone is warning them that machines lie, but no one checks them. Mayne the person sending out the warnings should be fearful, this seems like a threat. |
 
 Add more rows as the weeks go on. Keep entries short — a sentence or
 two per column is plenty, and a note that turns out to be nothing
